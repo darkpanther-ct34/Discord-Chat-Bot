@@ -1,0 +1,4 @@
+Add general knowledge  x
+Use a database to make the last event and last messages for users individually to use it  x
+Make videos from reddit work  x
+Add messages that can be remembered and make it individual for users   x

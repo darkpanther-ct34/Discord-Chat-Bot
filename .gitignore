@@ -1,0 +1,6 @@
+*.env
+venv
+.idea
+*.pyc
+misssedMessages.json
+data.pth

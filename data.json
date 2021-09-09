@@ -1,0 +1,79 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day",
+        "Greetings"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello",
+        "Hi there",
+        "Hi",
+        "Hello there"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye", "Adios", "Hasta La Vista"],
+      "responses": [
+        "See you later",
+        "Have a nice day",
+        "Bye!",
+        "Adios"
+      ]
+    },
+    {
+      "tag": "memes",
+      "patterns": ["Do you know any memes?", "Got any memes?", "Show me a meme", "I want to see a meme"],
+      "responses": [
+        "meme"
+      ]
+    },
+    {
+      "tag": "art",
+      "patterns": ["Do you have any art to show me?", "Got any art?", "Show me some art", "I want to see art", "Give me some art"],
+      "responses": [
+        "art"
+      ]
+    },
+    {
+      "tag": "cursed image",
+      "patterns": ["Do you have a cursed image?", "Have a cursed image?", "Show me a cursed image", "I want to see a cursed image"],
+      "responses": [
+        "cursed image"
+      ]
+    },
+    {
+      "tag": "dice roll",
+      "patterns": ["Can you roll a dice?", "Pick a random number", "Roll me a dice", "Give me a random number", "Roll a dice", "Show me a random number"],
+      "responses": [
+        "roll"
+      ]
+    },{
+      "tag": "repeat",
+      "patterns": ["Do it again", "Another one", "Give me another one", "Again", "Repeat it", "More"],
+      "responses": [
+        "repeat"
+      ]
+    },{
+      "tag": "joke",
+      "patterns": ["Tell me a joke", "I want to hear a joke", "Do you know any jokes?", "Do you have any jokes?"],
+      "responses": [
+        "joke"
+      ]
+    },{
+      "tag": "help",
+      "patterns": ["What can you do?", "Tell me what you do", "I want to know what you can do", "How can you help me?", "What are your functions?", "Help"],
+      "responses": [
+        "help"
+      ]
+    }
+  ]
+}
